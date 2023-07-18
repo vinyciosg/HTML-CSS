@@ -1,0 +1,41 @@
+@charset "UTF8"
+
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to right, #FAD3C0, #FFE9DE );
+}
+
+main{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px #83c9c3;
+    width: 600px;
+    padding: 16px;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 2em;
+   color: #6FABA6; 
+   text-align: center;
+   text-shadow: 1px 1px 2px #4f9791;
+
+}
+
+h2{
+    font-family: 'Sedgwick Ave Display', cursive;
+    
+  color: #6FABA6;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}

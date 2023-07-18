@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas </title>
+    <style>
+        @font-face {
+            font-family: 'Love';
+            src: url('fontes/WomanRegular.ttf') format(opentype), url('fontes/WomanRegular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* 
+              tipos de format:
+             - opentype (otf)
+             - truetype (ttf)
+             - enbedded-opentype
+             - truetype (apple Advanced typography)
+             - svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: mediumseagreen;
+        
+        }
+
+        h1{
+         font-family: 'Love', Times, serif ;
+         font-size: 3em;
+         text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ea officiis fuga voluptatibus quibusdam fugiat voluptas laborum quia ad expedita pariatur cum libero maxime, odio id mollitia vel eos a?</p>
+    
+</body>
+
+</html>
