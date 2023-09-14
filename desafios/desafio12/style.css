@@ -74,6 +74,14 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.182);
 }
 
+section .imagem, #imagem1 {
+    background: url(imagens/background001.jpg) black center center/cover no-repeat fixed;
+}
+
+section .imagem, #imagem2 {
+    background: url(imagens/background002.jpg) black center center/cover no-repeat fixed;
+ }
+
 footer {
     background-color: black;
     color: white;
