@@ -18,13 +18,13 @@
 
 html, body {
     min-height: 100vh;
-    background-color: gray;
+    background-color: rgba(29, 29, 29, 0.626);
     font-family:var(--font1) ;
     
 }
 
 header {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.881);
     color: white;
     text-align: center;
 }
@@ -33,20 +33,20 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font3);
-    font-size: 9.5vw;;
+    font-size: 9.5vw;
 
 }
 
 header > p {
     padding-bottom: 50px;
 }
-header a, footer a {
+header a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
 
-header a:hover, footer a:hover {
+header a:hover {
     text-decoration: underline;
 }
 
@@ -60,31 +60,63 @@ section {
 }
 
 section.normal {
-    background-color: white;
+    background-color: #ffffff;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.imagem {
     background-color: rgb(85, 76, 76);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.182);
+    background-color: rgba(0, 0, 0, 0.478);
+    text-shadow: 1px 1px 2px black;
 }
 
-section .imagem, #imagem1 {
-    background: url(imagens/background001.jpg) black center center/cover no-repeat fixed;
+section#imagem1 {
+    background: url(imagens/Captura\ de\ tela\ 2023-07-17\ 214903.png);
+    background-position: right center;
+    background-attachment: fixed;
+  
 }
 
-section .imagem, #imagem2 {
-    background: url(imagens/background002.jpg) black center center/cover no-repeat fixed;
+section#imagem2 {
+    background: url(imagens/Captura\ de\ tela\ 2023-07-17\ 212730.png);
+    background-position: center;
+    background-attachment: fixed;
  }
 
 footer {
     background-color: black;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-image: url(imagens/wallpaper004.jpg);
+    background-position: right center;
+    font-family: var(--font3);
+    font-size: 3.5vw;
+    font-variant: small-caps;
     text-align: center;
-    padding: 10px;
+    padding: 50px;
+    
+    
 }
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+footer a {
+    color: rgb(0, 0, 0) ;
+    text-decoration: none;
+}
+
+
