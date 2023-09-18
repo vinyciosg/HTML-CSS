@@ -24,9 +24,8 @@ html, body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.881);
+    background-color:black;
     color: white;
-    background-image: url(imagens/WhatsApp\ Image\ 2023-09-14\ at\ 18.42.15.jpeg);
     background-position: center;
     text-align: center;
     background-size: cover;
@@ -34,7 +33,7 @@ header {
 }
 
 header > h1 {
-    padding-top: 150px;
+    padding-top: 100px;
     font-variant: small-caps;
     font-family: var(--font3);
     font-size: 9.5vw;
@@ -87,14 +86,14 @@ section.imagem > p {
 }
 
 section#imagem1 {
-    background: url(imagens/Captura\ de\ tela\ 2023-07-17\ 214903.png);
+    background: url(imagens/background001.jpg);
     background-position: right center;
     background-attachment: fixed;
   
 }
 
 section#imagem2 {
-    background: url(imagens/Captura\ de\ tela\ 2023-07-17\ 212730.png);
+    background: url(imagens/background002.jpg);
     background-position: center;
     background-attachment: fixed;
  }
