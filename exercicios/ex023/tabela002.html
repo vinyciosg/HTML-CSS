@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -21,13 +22,24 @@
         }
 
         thead, tfoot {
-            background-color: rgba(128, 128, 128, 0.815);
+            background-color: rgb(128, 128, 128);
             color: white;
+        }
+
+        thead > tr > th {
+         position: sticky;
+         top: -1px;
+         background-color:  rgb(128, 128, 128) ;
         }
 
         td.num {
            text-align: right;
         }
+       
+        tbody > tr:nth-child(2n) {
+         background-color: rgb(167, 166, 166);
+        }
+
 
         caption {
             font-size: 1.5em;
@@ -124,19 +136,29 @@
                 <td>Espírito Santo</td>
                 <td class="num">3 833 486	</td>
              </tr>
+             <tr>
+               <td>Mato Grosso</td>
+               <td class="num">3 658 813</td>
+             </tr>
+             <tr>
+               <td>Rio Grande do norte</td>
+               <td class="num">3 302 406	</td>
+             </tr>
+             <tr>
+               <td>Piauí</td>
+               <td class="num">3 269 200</td>
+             </tr>
 
         </tbody>
 
         <tfoot>
             <tr>
                     <th scope="row">Total de Habitantes</th>
-                    <td class="num"><strong>176.628.944</strong></td>
+                    <td class="num"><strong>182.628.944</strong></td>
             </tr>
 
         </tfoot>
-
-        
-
     </table>
+    
 </body>
 </html>
