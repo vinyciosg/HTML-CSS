@@ -4,28 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-</head>
+</head> 
 <body>
     <h1>Exemplo de Formulario</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
 
         <fieldset>
             <legend>Sexo</legend>
-            <input type="radio" name="sexo" id="sxmas"> <label for="sxmas"> Masculino</label> <br>
-            <input type="radio" name="sexo" id="sxfemi"> <label for="sxfemi">Feminino</label>
+
+            <input type="radio" name="sexo" id="sxmas" value="M"> <label for="sxmas"> Masculino</label> <br>
+
+            <input type="radio" name="sexo" id="sxfemi" value="F" checked> <label for="sxfemi">Feminino</label>
+
         </fieldset>
         
         <fieldset>
             <legend>Esportes Favoritos</legend>
-            <label for="iesfutebol"><input type="checkbox" name="esfutebol" id="iesfutebol"> Futebol </label><br>
+
+            <label for="iesfutebol"><input type="checkbox" name="esfutebol" id="iesfutebol" checked> Futebol </label><br>
+
             <label for="iestenis"><input type="checkbox" name="estenis" id="iestenis"> Tenis</label> <br>
-            <label for="iesbasquete"><input type="checkbox" name="esbasquete" id="iesbasquete"> Basquete</label> <br>
+
+            <label for="iesbasquete"><input type="checkbox" name="esbasquete" id="iesbasquete" checked> Basquete</label> <br>
+
             <label for="iesgolfe"><input type="checkbox" name="esgolfe" id="iesgolfe"> Golfe</label> <br>
 
         </fieldset>
 
          <p>
             <input type="submit" value="Enviar">
+            
             <input type="reset" value="Limpar">
          </p>
 
