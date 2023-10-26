@@ -14,3 +14,30 @@ html {
     line-height: 1.5em;
     
 }
+
+header {
+    background-color: rgba(119, 136, 153, 0.71);
+}
+
+header > h1 {
+    text-align: center;
+    
+}
+
+menu li {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    display: inline-block;
+    padding: 10px
+}
+
+menu ul {
+    list-style-type: none ;
+    background-color: gray;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
